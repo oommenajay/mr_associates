@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Button } from "../Button/Button";
+import landingImage from "./assests/Frame43.png"
 
 export function MainFirstContent() {
     return (
@@ -20,7 +21,7 @@ export function MainFirstContent() {
                 </article>
                 <img
                     loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b546aa910c1425dd06b7c2f45db971c3fa2d271358e74e7a23f0c8663325be32?placeholderIfAbsent=true&apiKey=0f44f0e85cd14078bb35cd551110e240"
+                    src={landingImage}
                     alt="Financial solutions illustration"
                     className="object-contain grow shrink aspect-[1.09] min-w-[240px] w-[538px] max-md:max-w-full"
                 />

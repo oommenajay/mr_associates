@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ServiceCard({ title, description, iconSrc }) {
   return (
-    <article className="flex flex-col grow shrink self-stretch px-16 py-10 my-auto rounded-xl bg-neutral-100 min-w-[240px] w-[333px] max-md:px-5">
+    <article className="flex flex-col grow shrink self-stretch px-16 py-10 my-auto rounded-xl bg-neutral-100 min-w-[240px] w-[450px] max-md:px-5">
       <img
         loading="lazy"
         src={iconSrc}

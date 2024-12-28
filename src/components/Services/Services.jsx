@@ -1,44 +1,44 @@
 import React from 'react'
 import ServiceCard from './ServiceCard';
 import icon1 from "../Services/assests/audit.png"
+import CorporateImg from "./assests/briefcase.png"
+import directTaxImg from "./assests/Group1.png"
+import indirectTaxImg from "./assests/10-tag.png"
+import AuditAndAssuranceImg from "./assests/Group2.png"
+import OutsourcingImg from "./assests/outsourcing.png"
+
 
 
 const services = [
     {
         id: 1,
-        title: "Audit & Assurance",
+        title: "Corporate Advisory",
         description: "Comprehensive audit services to ensure accuracy and compliance with regulatory standards.",
-        iconSrc: icon1
+        iconSrc: CorporateImg
     },
     {
         id: 2,
-        title: "Audit & Assurance",
+        title: "Direct Tax Advisory",
         description: "Comprehensive audit services to ensure accuracy and compliance with regulatory standards.",
-        iconSrc: icon1
+        iconSrc: directTaxImg
     },
     {
         id: 3,
-        title: "Audit & Assurance",
+        title: "Indirect Tax",
         description: "Comprehensive audit services to ensure accuracy and compliance with regulatory standards.",
-        iconSrc: icon1
+        iconSrc: indirectTaxImg
     },
     {
         id: 4,
         title: "Audit & Assurance",
         description: "Comprehensive audit services to ensure accuracy and compliance with regulatory standards.",
-        iconSrc: icon1
+        iconSrc: AuditAndAssuranceImg
     },
     {
         id: 5,
-        title: "Audit & Assurance",
+        title: "Outsourcing",
         description: "Comprehensive audit services to ensure accuracy and compliance with regulatory standards.",
-        iconSrc: icon1
-    },
-    {
-        id: 6,
-        title: "Audit & Assurance",
-        description: "Comprehensive audit services to ensure accuracy and compliance with regulatory standards.",
-        iconSrc: icon1
+        iconSrc: OutsourcingImg
     }
 ];
 
@@ -47,7 +47,7 @@ const Services = () => {
         <>
             <main className="flex flex-col justify-center items-center px-20 py-16 bg-white  max-md:px-5">
                 <header className="flex flex-col justify-center items-center max-w-full text-center  w-[634px]">
-                    <h1 className="text-3xl font-semibold leading-none  text-indigo-950 max-md:max-w-full">
+                    <h1 className="text-3xl font-semibold leading-none  text-[#5175EC] max-md:max-w-full">
                         Our all-in-one accounting services
                     </h1>
                     <p className="mt-2.5 text-base leading-6 text-[color:var(--sds-color-text-default-default)] max-md:max-w-full">
@@ -55,7 +55,7 @@ const Services = () => {
                         business financial needs
                     </p>
                 </header>
-                <section className="flex flex-wrap gap-4 items-start self-stretch mt-10 w-full text-black max-md:max-w-full">
+                <section className="flex flex-wrap gap-4 items-start self-center mt-10 w-full text-black max-md:max-w-full">
                     <div className="flex flex-wrap grow shrink gap-4 items-center min-w-[240px] w-[1034px]">
                         {services.map((service) => (
                             <ServiceCard key={service.id} {...service} />

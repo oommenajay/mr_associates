@@ -20,7 +20,7 @@ export function FAQ() {
                         <FAQItem
                             question={item.question}
                             answer={item.answer}
-                            isOpen={item.isOpen}
+                        // isOpen={item.isOpen}
                         />
                     </div>
                 ))}

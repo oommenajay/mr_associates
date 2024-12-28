@@ -6,7 +6,7 @@ export function TeamSection() {
   return (
     <section className="flex flex-col items-center px-20 py-16 max-md:px-5">
       <header className="flex flex-col justify-center items-center max-w-full text-center w-[634px]">
-        <h2 className="text-3xl font-semibold leading-none text-indigo-950 max-md:max-w-full">
+        <h2 className="text-3xl font-semibold leading-none text-[#5175EC] max-md:max-w-full">
           Team, led by the best
         </h2>
         <p className="mt-2.5 text-base leading-6 text-[color:var(--sds-color-text-default-default)] max-md:max-w-full">
