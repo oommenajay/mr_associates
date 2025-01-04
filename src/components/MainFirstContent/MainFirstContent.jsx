@@ -7,7 +7,7 @@ export function MainFirstContent() {
         <main className="flex flex-col justify-center px-20 pb-16 text-base max-md:px-5">
             <section className="flex flex-wrap gap-10 w-full max-md:max-w-full justify-center items-center">
                 <article className="flex flex-col grow shrink py-12 pl-16 min-w-[240px] w-[441px] max-md:max-w-full ">
-                    <h1 className="text-6xl font-medium capitalize leading-[65px] text-indigo-950 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
+                    <h1 className="font-lora text-6xl font-medium capitalize leading-[65px] text-indigo-950 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
                         Expert financial <br />
                         solutions for <br />
                         personal and <br />
