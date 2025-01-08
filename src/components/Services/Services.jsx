@@ -45,7 +45,7 @@ const services = [
 const Services = () => {
     return (
         <>
-            <main className="flex flex-col justify-center items-center px-20 py-16 bg-white  max-md:px-5">
+            <main className="flex flex-col justify-center items-center py-16 bg-white">
                 <header className="flex flex-col justify-center items-center max-w-full text-center  w-[634px]">
                     <h1 className="text-3xl font-semibold leading-none  text-[#5175EC] max-md:max-w-full">
                         Our all-in-one accounting services
@@ -55,8 +55,8 @@ const Services = () => {
                         business financial needs
                     </p>
                 </header>
-                <section className="flex flex-wrap gap-4 items-start self-center mt-10 w-full text-black max-md:max-w-full">
-                    <div className="flex flex-wrap grow shrink gap-4 items-center min-w-[240px] w-[1034px]">
+                <section className="flex flex-wrap items-start self-center mt-10 w-full text-black max-md:max-w-full">
+                    <div className="flex sm:flex-col md:flex-row flex-wrap grow shrink justify-center sm:items-center gap-4">
                         {services.map((service) => (
                             <ServiceCard key={service.id} {...service} />
                         ))}
